@@ -42,5 +42,9 @@ function renderActivities(activitiesArray) {
 function renderActivity(recipe) {
 	
 }
+/*funcion para poner el p nuevas recetas*/
+$(document).ready(function printNews() {
+	$("p").html("NUEVAS RECETAS");
+});
 
 
